@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+    color: azure;
+
+}
+.maintitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%,
+     rgba(148, 187, 233, 1) 100%);
+    background-clip: text;
+    color: transparent;
+    margin-top:10px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 5px rgb(247, 242, 197) ;
+}
+.navlist{
+    list-style: none;
+}
+.navtext {
+    text-decoration: none;
+    color: rgb(93, 55, 93);
+    font-size: 15px;
+    font-family: monospace;
+}
+
+nav {
+    border: 3px solid rgb(212, 127, 212) ;
+    width: 900px;
+    border-radius: 50px;
+    background-color:bisque;
+    margin: auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+
+
+}
+
+.navlist{
+    display: inline;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700px;
+    font-size: 25px;
+}
+
+.par
+{
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 10px;
+    color:#EEAECA;
+}
+
+.headtwo
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background: #c5a2e8;
+    background: linear-gradient(90deg, rgba(197, 162, 232, 1) 0%, 
+rgba(230, 142, 142, 1) 50%, rgba(235, 175, 96, 1) 100%);
+    background-clip: text;
+     color: transparent;
+     text-decoration: none;
+     margin-bottom: 20px;
+}
+section, footer{
+    border:5px solid rgb(252, 245, 190);
+    width:1200px;
+    border-radius: 50px;
+    background-color:lavender;
+    margin: auto;
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+    margin-bottom: 10px;  
+    margin-top: 10px;
+    line-height: 1.2;
+    
+    
+}
+
+section:hover,
+ footer:hover{
+    box-shadow: -5px -5px 20px rgb(132, 132, 194), 5px 5px 20px rgb(193, 203, 101);
+    cursor: pointer;
+}
+.herovideo
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.logo {
+    border:2px solid whitesmoke;
+    border-radius: 20px;
+    text-decoration:none;
+}
+#githublink{
+    text-decoration: none;
+    color: black;
+    border: 2px solid rgb(210, 210, 66);
+    border-radius: 10px;
+    background-color: rgb(201, 201, 244);
+    margin-top: 10px;
+    padding: 5px;
+    font-size: small;
+}
+#contact {
+    text-decoration: none;
+    display:inline;
+    color:black;
+}
+#upperpage{
+    text-decoration: none;
+    color:black;
+    border: 2px solid rgb(210, 210, 66);
+    border-radius: 10px;
+    background-color: rgb(201, 201, 244);
+    margin-top: 20px;
+    padding: 5px;
+    font-size: small;
+
+}
